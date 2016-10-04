@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">тилиграфер))</string>
+
+    <string name="edit_text_hint">Введите ваш текст</string>
+    <string name="send_hint">Отправить</string>
+
+</resources>
