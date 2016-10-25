@@ -26,7 +26,7 @@
         android:layout_height="40dp">
 
         <EditText
-            android:text="@string/edit_text_hint"
+            android:hint="@string/edit_text_hint"
             android:id="@+id/et_message_text"
             android:layout_width="0dp"
             android:layout_weight="5"
