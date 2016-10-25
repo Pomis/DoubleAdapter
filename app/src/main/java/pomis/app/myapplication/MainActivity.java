@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initAdapter() {
         adapter = new MessengerAdapter(this, 0, arrayList);
+        
         listView.setAdapter(adapter);
     }
 }
