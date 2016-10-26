@@ -38,18 +38,8 @@ public class Connection {
     }
 
 
-
-
-
-
-
-
-
-
-
-
     public static String withJSON(String address, String type, JSONObject jsonObject)
-    throws Exception{
+            throws Exception {
         String json = "";
         json = jsonObject.toString();
         Log.d("kek", json);
@@ -66,17 +56,10 @@ public class Connection {
         outputStreamWriter.write(json);
         outputStreamWriter.flush();
         outputStreamWriter.close();
+        Log.d("kek", "Response code: "+connection.getResponseCode());
         InputStream in = connection.getInputStream();
         return convertStreamToString(in);
     }
-
-
-
-
-
-
-
-
 
 
     static String convertStreamToString(InputStream is) {
